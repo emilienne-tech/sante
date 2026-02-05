@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription Santé</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Inscription Patient</h2>
+    <p class="subtitle">Créer un compte pour accéder aux services de santé</p>
+
+    <form action="traitement.php" method="POST">
+        <div class="form-group">
+            <label>Nom complet</label>
+            <input type="text" name="nom" placeholder="Entrez votre nom" required>
+        </div>
+
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" name="email" placeholder="exemple@email.com" required>
+        </div>
+
+        <div class="form-group">
+            <label>Mot de passe</label>
+            <input type="password" name="mot_de_passe" placeholder="Mot de passe sécurisé" required>
+        </div>
+
+        <button type="submit">S'inscrire</button>
+    </form>
+</div>
+
+</body>
+</html>
